@@ -49,4 +49,4 @@ jobs:
         scanners: sast, sca
         #  scanners: sca
         bug_tracker: GitHub
-        params: --namespace=${{ github.repository_owner }} --repo-name=${{ github.event.repository.name }} --branch=${{ github.ref }} --severity=High --category=Stored_XSS&category=SQL_Injection
+        params: --namespace=${{ github.repository_owner }} --repo-name=${{ github.event.repository.name }} --branch=${{ github.ref }} --severity=High --category=SQL_Injection
